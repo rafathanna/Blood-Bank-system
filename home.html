@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Blood Bank</title>
+    <link rel="icon" href="./assets/images/giphy.gif" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/utilities.css" />
+    <!-- normalize.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- wow animation-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+   <div id="loader" >
+    <div class="loader">
+      <span>BloodBankSystem</span>
+      <span>BloodBankSystem</span>
+  </div>
+   </div>
+    <div class="page-wrapper">
+      <!-- header -->
+      <header class="header">
+        <nav class="navbar">
+          <div class="container">
+            <div
+              class="navbar-content d-flex justify-content-between align-items-center"
+            >
+              <div
+                class="brand-and-toggler d-flex align-items-center justify-content-between"
+              >
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                  <span class="brand-shape d-inline-block text-white">B</span>
+                  <span class="brand-text fw-7">Blood Bank</span>
+                </a>
+                <button type="button" class="d-none navbar-show-btn">
+                  <i class="fas fa-bars"></i>
+                </button>
+              </div>
+
+              <div class="navbar-box">
+                <button type="button" class="navbar-hide-btn">
+                  <i class="fas fa-times"></i>
+                </button>
+
+                <ul class="navbar-nav d-flex align-items-center">
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="nav-link text-white nav-active text-nowrap"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="about.html" class="nav-link text-white text-nowrap"
+                      >About us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="Chatbot/index.html"
+                      class="nav-link text-white text-nowrap"
+                      >chatbot</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="contactUs-page/contact.html" class="nav-link text-white text-nowrap"
+                      >Contact us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="login page.html"
+                      class="nav-link text-white text-nowrap"
+                      >Login</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="element-one">
+          <img src="assets/images/element-img-1.png" alt="" />
+        </div>
+
+        <div class="banner">
+          <div class="container">
+            <div class="banner-content">
+              <div class="banner-left">
+                <div class="content-wrapper">
+                  <h1 class="banner-title"></h1>
+                  <p class="text text-white">
+                    We solve the problem of blood emergencies by connecting
+                    blood donors directly with people in blood need.
+                  </p>
+                  <a href="blood.html" class="btn btn-secondary">Learn More</a>
+                </div>
+              </div>
+
+              <div
+                class="banner-right d-flex align-items-center justify-content-end"
+              >
+                <img src="assets/images/banner-image.png" class="animate__animated animate__bounceInRight animate__slower 3s " />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- end of header -->
+
+      <main>
+        <section class="sc-services">
+          <div class="services-shape">
+            <img src="assets/images/curve-shape-1.png" alt="" />
+          </div>
+          <div class="container">
+            <div class="services-content">
+              <div class="title-box text-center">
+                <div class="content-wrapper">
+                  <h3 class="title-box-name">Our services</h3>
+                  <div class="title-separator mx-auto"></div>
+                  <p class="text title-box-text">
+                    Clean blood money to become a stronger society
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="services-list row animate__animated animate__bounceInRight animate__slower 3s "
+              >
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-1.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Search Blood</h5>
+                  <p class="text">
+                    Easily find your nearest community blood center and schedule
+                    a blood donation appointment today.
+                  </p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-2.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Donation</h5>
+                  <p class="text">
+                    Giving blood is easy and safe. It only takes one hour and
+                    you will be doing something amazing. Most people aged
+                    between 17-65 can donate.
+                  </p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-6.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Chatbot</h5>
+                  <p class="text">
+                    Explanation of how users can inquire about donation terms
+                    and procedures.
+                  </p>
+                </div>
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-4.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Details info</h5>
+                  <p class="text">
+                    You can find out your blood group by giving blood. To find
+                    out someone's blood group, a sample of their blood has to be
+                    taken and tested.
+                  </p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-5.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Emergency care</h5>
+                  <p class="text">
+                    You can get 24/7 urgent care for yourself or your children
+                    and your lovely family.
+                  </p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-3.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Consultation</h5>
+                  <p class="text">
+                    Free consultation with our trusted doctors and get the best
+                    recommendations.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="d-flex align-items-center justify-content-center services-main-btn"
+              >
+                <button type="button" class="btn btn-primary-outline">
+                  Learn more
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sc-grid sc-grid-one">
+          <div class="container">
+            <div class="grid-content d-grid align-items-center">
+              <div class="grid-img">
+                <img src="assets/images/health-care-img.png" alt="" />
+              </div>
+              <div class="grid-text">
+                <div class="content-wrapper text-start">
+                  <div class="title-box">
+                    <h3 class="title-box-name text-white">What we do ?</h3>
+                    <div class="title-separator mx-auto"></div>
+                  </div>
+
+                  <p class="text title-box-text text-white">
+                    We connect blood donors with recipients, without any
+                    intermediary such as blood banks, for an efficient and
+                    seamless process.
+                  </p>
+                  <button type="button" class="btn btn-white-outline">
+                    Learn more
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sc-grid sc-grid-two">
+          <div class="container">
+            <div class="grid-content d-grid align-items-center">
+              <div class="grid-img">
+                <img src="assets/images/download-image.png" alt="" />
+              </div>
+              <div class="grid-text">
+                <div class="content-wrapper text-start">
+                  <div class="title-box">
+                    <h3 class="title-box-name">Download our Web app</h3>
+                    <div class="title-separator mx-auto"></div>
+                  </div>
+                  <p class="text title-box-text">
+                    Our dedicated patient engagement app and web portal allow
+                    you to access information instantaneously (no tedeous form,
+                    long calls, or administrative hassle) and securely
+                  </p>
+                  <button type="button" class="btn btn-primary-outline">
+                    Download
+                    <img src="assets/images/arrow-down.svg" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sc-feedback">
+          <div class="container">
+            <div class="feedback-content">
+              <div class="feedback-element">
+                <img src="assets/images/element-img-3.png" />
+              </div>
+              <div class="feedback-element-2">
+                <img src="assets/images/element-img-5.png" />
+              </div>
+              <div class="title-box text-center">
+                <div class="content-wrapper">
+                  <h3 class="title-box-name text-white">
+                    What our Donors are saying
+                  </h3>
+                  <div class="title-separator mx-auto"></div>
+                </div>
+              </div>
+
+              <div class="feedback-list feedback-slider owl-carousel owl-theme">
+                <div class="feedback-item d-grid">
+                  <div class="item-left d-flex align-items-center">
+                    <div class="item-img">
+                      <img src="assets/images/person-image.png" alt="" />
+                    </div>
+                    <div class="item-info text-white">
+                      <p class="fw-7 name">Edward Newgate</p>
+                      <span class="designation fw-4">Founder Circle</span>
+                    </div>
+                  </div>
+                  <div class="item-right">
+                    <p class="text text-white">
+                      "Our dedicated patient engagement app and web portal allow
+                      you to access information instantaneoulsy (no tedeous
+                      form, long calls, or administrative hassle) and securely"
+                    </p>
+                  </div>
+                </div>
+
+                <div class="feedback-item d-grid">
+                  <div class="item-left d-flex align-items-center">
+                    <div class="item-img">
+                      <img src="assets/images/person-image.png" alt="" />
+                    </div>
+                    <div class="item-info text-white">
+                      <p class="fw-7 name">Edward Newgate</p>
+                      <span class="designation fw-4">Founder Circle</span>
+                    </div>
+                  </div>
+                  <div class="item-right">
+                    <p class="text text-white">
+                      "Our dedicated patient engagement app and web portal allow
+                      you to access information instantaneoulsy (no tedeous
+                      form, long calls, or administrative hassle) and securely"
+                    </p>
+                  </div>
+                </div>
+
+                <div class="feedback-item d-grid">
+                  <div class="item-left d-flex align-items-center">
+                    <div class="item-img">
+                      <img src="assets/images/person-image.png" alt="" />
+                    </div>
+                    <div class="item-info text-white">
+                      <p class="fw-7 name">Simon Paul</p>
+                      <span class="designation fw-4">Founder Circle</span>
+                    </div>
+                  </div>
+                  <div class="item-right">
+                    <p class="text text-white">
+                      "Our dedicated Donors engagement app and web portal allow
+                      you to access information instantaneoulsy (no tedeous
+                      form, long calls, or administrative hassle) and securely"
+                    </p>
+                  </div>
+                </div>
+
+                <div class="feedback-item d-grid">
+                  <div class="item-left d-flex align-items-center">
+                    <div class="item-img">
+                      <img src="assets/images/person-image.png" alt="" />
+                    </div>
+                    <div class="item-info text-white">
+                      <p class="fw-7 name">John Doe</p>
+                      <span class="designation fw-4">Donor</span>
+                    </div>
+                  </div>
+                  <div class="item-right">
+                    <p class="text text-white">
+                      "Our dedicated patient engagement app and web portal allow
+                      you to access information instantaneoulsy (no tedeous
+                      form, long calls, or administrative hassle) and securely"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sc-articles">
+          <div class="articles-shape">
+            <img src="assets/images/curve-shape-2.png" alt="" />
+          </div>
+          <div class="container">
+            <div class="articles-content">
+              <div class="articles-element">
+                <img src="assets/images/element-img-2.png" alt="" />
+              </div>
+              <div class="title-box text-center">
+                <div class="content-wrapper">
+                  <h3 class="title-box-name">Check out our latest article</h3>
+                  <div class="title-separator mx-auto"></div>
+                </div>
+              </div>
+
+              <div
+                class="articles-list d-flex flex-wrap justify-content-center"
+              >
+                <article class="articles-item">
+                  <div class="item-img">
+                    <img src="assets/images/article-img-1.png" />
+                  </div>
+                  <div class="item-body">
+                    <div class="item-title">Give ablood</div>
+                    <p class="text">
+                      Your plasma could be used to treat 50 diseases - and it
+                      only takes around an hour to give. 17-65 years old (if you
+                      are over 65 years old you may still be able to donate.
+                      Check your eligibility) in good general health
+                    </p>
+                    <a
+                      href="#"
+                      class="item-link text-blue d-flex align-items-baseline"
+                    >
+                      <span class="item-link-text">Read more</span>
+                      <span class="item-link-icon">
+                        <i class="fas fa-arrow-right"></i>
+                      </span>
+                    </a>
+                  </div>
+                </article>
+
+                <article class="articles-item">
+                  <div class="item-img">
+                    <img src="assets/images/donation1.jpg" />
+                  </div>
+                  <div class="item-body">
+                    <div class="item-title">blood type</div>
+                    <p class="text">
+                      There are more appointments for donors with blood types
+                      that people often need, such as O negative. On the other
+                      hand, there are fewer appointments for blood types where
+                      demand is lower, such as AB positive.
+                    </p>
+                    <a
+                      href="#"
+                      class="item-link text-blue d-flex align-items-baseline"
+                    >
+                      <span class="item-link-text">Read more</span>
+                      <span class="item-link-icon">
+                        <i class="fas fa-arrow-right"></i>
+                      </span>
+                    </a>
+                  </div>
+                </article>
+
+                <article class="articles-item">
+                  <div class="item-img">
+                    <img src="assets/images/patientsjpg.jpg" />
+                  </div>
+                  <div class="item-body">
+                    <div class="item-title">Save Life</div>
+                    <p class="text">
+                      We are a non profit foundation and our main objective is
+                      to make sure that everything is done to protect vulnerable
+                      persons. Help us by making a gift !
+                    </p>
+                    <a
+                      href="#"
+                      class="item-link text-blue d-flex align-items-baseline"
+                    >
+                      <span class="item-link-text">Read more</span>
+                      <span class="item-link-icon">
+                        <i class="fas fa-arrow-right"></i>
+                      </span>
+                    </a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-list d-grid text-white">
+              <div class="footer-item">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                  <span class="brand-shape d-inline-block text-white">B</span>
+                  <span class="brand-text fw-7">Blood Bank</span>
+                </a>
+                <p class="text-white">
+                  We solve the problem of blood emergencies by connecting blood
+                  donors directly with people in blood need.
+                </p>
+                <p class="text-white copyright-text">
+                  &copy; Blood Bank 2023. All rights reserved.
+                </p>
+              </div>
+
+              <div class="footer-item">
+                <h3 class="footer-item-title">Links</h3>
+                <ul class="footer-links">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">chatbot</a></li>
+                  <li><a href="#">contact us</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-item">
+                <h3 class="footer-item-title">Contact Info</h3>
+                <ul class="footer-links">
+                  <li><a href="#">9 ack Street, Cairo, Egypt.</a></li>
+                  <li><a href="#">+123 456 789</a></li>
+                  <li><a href="#">team@gmail.com</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-item">
+                <h3 class="footer-item-title">Help</h3>
+                <ul class="footer-links">
+                  <li><a href="#">Help center</a></li>
+                  <li><a href="#">Contact support</a></li>
+                  <li><a href="#">Instructions</a></li>
+                  <li><a href="#">How it works</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-element-1">
+          <img src="assets/images/element-img-4.png" alt="" />
+        </div>
+        <div class="footer-element-2">
+          <img src="assets/images/element-img-5.png" alt="" />
+        </div>
+      </footer>
+    </div>
+
+    <!-- jquery cdn -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+    <!-- owl carousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- custom js -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

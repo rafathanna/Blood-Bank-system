@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+
+  <link rel="stylesheet" href="css/utilities.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-content d-flex justify-content-between align-items-center">
+          <div class="brand-and-toggler d-flex align-items-center justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <span class="brand-shape d-inline-block text-white">B</span>
+              <span class="brand-text fw-7">Blood Bank</span>
+            </a>
+            <button type="button" class="d-none navbar-show-btn">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+          <div class="navbar-box">
+            <button type="button" class="navbar-hide-btn">
+              <i class="fas fa-times"></i>
+            </button>
+
+            <ul class="navbar-nav d-flex align-items-center">
+              <li class="nav-item">
+                <a href="../home.html" class="nav-link text-white  text-nowrap">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="../about.html" class="nav-link text-white text-nowrap">About us</a>
+              </li>
+              <li class="nav-item">
+                <a href="../Chatbot/index.html" class="nav-link text-white text-nowrap">chatbot</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link text-white text-nowrap nav-active">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a href="../login page.html" class="nav-link text-white text-nowrap">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Header -->
+  <div class="containr">
+    <img src="img/shape.png" class="square" alt="" />
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Let's get in touch</h3>
+        <p class="text">
+          You can contact us by completing the required information such as name, email, and phone number. Then you can
+          write anything you want to ask about.
+        </p>
+
+        <div class="info">
+          <div class="information">
+            <img src="img/email.png" class="icon" alt="" />
+            <p>Email@gmail.com</p>
+          </div>
+          <div class="information">
+            <img src="img/phone.png" class="icon" alt="" />
+            <p>01234567893</p>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <p>Connect with us :</p>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form id="contactForm"  autocomplete="off">
+          <h3 class="title">Contact us</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" />
+            <label for="">Username</label>
+            <span>Username</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" />
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" />
+            <label for="">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input"></textarea>
+            <label for="">Message</label>
+            <span>Message</span>
+          </div>
+          <input type="submit" value="Send" class="btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/contact.js"></script>
+</body>
+
+</html>
